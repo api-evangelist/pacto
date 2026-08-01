@@ -1,7 +1,18 @@
 aid: pacto
 name: Pacto
-description: Pacto is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pacto is a Mexican fintech company modernizing payment acquisition for banks
+  and hospitality businesses, moving them "de lo legacy a lo digital" (from
+  legacy to digital). Pacto builds point-of-sale (POS) software and payment
+  terminals: a miniPOS terminal and "Ordena y Paga" (order-and-pay) terminals
+  plus value-added modules for banks, and a full restaurant POS suite (Pacto
+  POS, Pacto GetNet, Order & Pay QR ordering, bill splitting, inventory, and
+  reporting) for restaurants, cafes, bars, and fast-food counters. Backed by 500
+  Global and Banco Santander's GetNet, Pacto helps traditional financial
+  institutions and merchants accept digital card payments and manage operations.
+  This profile was surfaced as a 500 Global portfolio company; Pacto publishes a
+  marketing site, blog, and pricing but no public developer API or documentation
+  at this time.
 url: https://raw.githubusercontent.com/api-evangelist/pacto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://images.squarespace-cdn.com/content/v1/651310d574e58a336fa39a53/566a928b-d3e5-4a2b-9a7f-e21bd78c7939/Logo_pacto_white.png
 tags:
 - Company
+- Payments
+- Point of Sale
+- Fintech
+- Restaurants
+- Payment Processing
+- Mexico
+- Merchant Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pacto-domain-security.yml
 - type: Website
   url: https://pacto.co
+- type: Blog
+  url: https://pacto.co/blogpacto
+- type: Pricing
+  url: https://pacto.co/planes
+- type: Support
+  url: https://pacto.co/customercare
+- type: TermsOfService
+  url: https://pacto.co/termsofservice
+- type: PrivacyPolicy
+  url: https://pacto.co/aviso-de-privacidad
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
